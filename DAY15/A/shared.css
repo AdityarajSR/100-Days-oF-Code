@@ -1,0 +1,64 @@
+/* span --> Inline Element
+div --> Block Element */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;           
+  top: 15px;    
+  /* jis element k liye position absolute karenge vo vala element dusrek andar embed ho jayega (KIND OFFFF....) */
+  /*  relative to the ancestor element */
+  width: 100%;
+  box-sizing: border-box;   
+  /* To solve the problem caused by the 100% width which follows the 100% of its ancestor */
+}
+
+#page-logo a {
+  padding: 15px;
+  color: rgb(245, 243, 160);
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+header ul {
+  display: flex;
+  /* text-align: right; */
+  /* justify-content: space-evenly; */
+}
+
+header li {
+  padding: 5px;
+  margin-left: 20px;
+}
+
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+nav a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0);
+}
+

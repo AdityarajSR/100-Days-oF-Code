@@ -1,0 +1,70 @@
+body{
+    text-align: center;         /* Only seen on top as no content on side */
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 110px;
+  border: solid black;
+  margin-top: -105px;
+}
+
+h1 {
+  padding: 5px;
+  margin: auto;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  color: rgb(44, 107, 130);
+  font-weight: bolder;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(5, 7, 7);
+  font-weight: bolder;
+}
+
+a {
+  padding: 9px;
+  background-color: whitesmoke;
+  border: 4px dashed rgba(211, 220, 50, .6);
+  color: rgb(200, 28, 28);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+#myId {
+  color: blue;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 5px;
+}
+
+body a{
+  border-radius: 15px;
+  background-color: rgb(71, 96, 178);
+  color: aqua;
+}
+
+main{
+  background-color: orange;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+  width: 38rem;
+}
+
+

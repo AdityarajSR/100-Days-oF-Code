@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ghar ki Rasoi",
+    "address": "Pehli gali Dusra mohalla",
+    "cuisine": "Daal Roti",
+    "website": "https://gharkiRasoi.com",
+    "description": "Kyoki Roz ka yahi hai mera...."
+  },
+  {
+    "name": "Khedapati International",
+    "address": "58 Civil Lines, Dewas (M.P.)",
+    "cuisine": "Indian, Chinese, Continental",
+    "website": "https://khedapati_international.com",
+    "description": "The place is great and serves the best quality food in the city at very affordable prices."
+  },
+  {
+    "name": "Baburao Ka Hotel",
+    "address": "Sasti Gali, Mehenga Moholla AB koi nhi karega HALLA",
+    "cuisine": "SASTE NASE",
+    "website": "https://saste_nase.com",
+    "description": "kYoki iske Alag hi nashe hai "
+  }
+]

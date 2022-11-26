@@ -1,0 +1,36 @@
+body{
+    background-color: chartreuse;
+    /* margin: 8rem; */
+    font-family: 'Sono', sans-serif;
+}
+
+form{
+    background-color: aquamarine;
+    width: 25rem;
+    margin: 3rem auto;         
+    padding: 34px;     /* auto makes it move at the centre */
+    border: 1px solid;
+    border-radius: 16px;
+    box-sizing: border-box;  
+}
+
+input{
+    width: 100%;
+    display: block;         /* to avoid the inline property of the element */
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+button{
+    display: block;         /* to avoid the inline property of the element */
+    border-radius: 5px;
+    /* font: 100% "Sono", sans-serif; */
+                        /* Both act one and the same */
+    font: inherit;       
+    /* all the properties can be inherited from the body overwriting the default styles */
+}
+
+
+

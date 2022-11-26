@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(216, 172, 210);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: blue;
+    font-size: 52px;
+    background-color:rgb(204, 218, 221);
+    padding: 5px;
+    /* width: 50rem; */
+    margin: auto;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+
+header img{
+    width: 15rem;
+}
+
+

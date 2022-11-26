@@ -1,0 +1,26 @@
+body{
+    text-align: center;         /* Only seen on top as no content on side */
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+                  
+a {
+  color: rgb(200, 28, 28);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+                  
+ol{
+  list-style: none;
+}
+
+li{
+  list-style: square;
+  list-style: none;
+}

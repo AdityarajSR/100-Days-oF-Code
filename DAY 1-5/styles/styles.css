@@ -1,0 +1,46 @@
+body{
+    text-align: center;         /* Only seen on top as no content on side */
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+h1 {
+  /* font-family: 'Barlow', sans-serif; */
+  font-family: "PT Sans", sans-serif;
+  /* font-family: sans-serif; */
+  text-align: center;
+  color: rgb(44, 107, 130);
+  font-weight: bolder;
+  /* The answer is that the Google font isn't calibrated to carry all of the weights
+   you want with it. Many fonts only have 1 weight. Save this answer. Show activity on this post.2 */
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: darkcyan;
+  font-weight: bolder;
+}
+
+a {
+  color: rgb(200, 28, 28);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+#myId {
+  color: blue;
+  font-weight: bold;
+  font-size: 35px;
+}

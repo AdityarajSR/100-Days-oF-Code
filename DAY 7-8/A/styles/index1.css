@@ -1,0 +1,86 @@
+/* INLINE ELEMENTS HAVE LIMITATIONS RELATED TO PADDING AND MARGINS 
+SO WE CAN TACKLE THIS PROBLEM USING {DISPLAY} */
+
+/* MARGIN COLLAPSING EXISTS BETWEEN BLOCK ELEMENTS AFFECTING ONLY THE VERTICAL MARGINS
+AND ONLY THAT MARGIN WINS WHICH HAS GREATER VALUE */
+
+body {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-weight: bolder;
+  color: rgb(42, 30, 210);
+}
+
+p {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 55, 55);
+  font-family: "Barlow", sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+}
+
+a {
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+  /* font-family: 'Barlow', sans-serif; */
+  font-family: "PT Sans", sans-serif;
+  /* display: block; */
+  display: inline-block;         /* COMBINED PROPERTY OF BOTH BLOCK AND INLINE ELEMENT */
+}
+
+#id11 {
+  font-size: 25px;
+  color: brown;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a:hover {
+  color: black;
+  text-rendering: geometricPrecision;
+  text-transform: uppercase;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+ul {
+  margin: auto;
+  width: 40rem;
+}
+li {
+  background-color: orange;
+  list-style: none;
+  border-radius: 10px;
+  margin: 25px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+body p {
+  font-family: "PT Sans", sans-serif;
+  color: rgb(68, 10, 10);
+}
+
+h2 {
+  padding: 10px 50px 0 0;
+  margin: 3px;
+}
+
+li p {
+  padding: 5px 10px 5px 10;
+  margin: 2px;
+}
+
+.highlight {
+  background-color: rgb(32, 155, 174);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+

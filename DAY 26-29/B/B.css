@@ -1,0 +1,15 @@
+body{
+    background-color: chartreuse;
+    margin: 8rem;
+}
+
+input{
+    width: 20rem;
+    display: block;         /* to avoid the inline property of the element */
+    margin-bottom: 15px;
+}
+
+button{
+    display: block;         /* to avoid the inline property of the element */
+}
+
