@@ -14,7 +14,7 @@ form{
     box-sizing: border-box;  
 }
 
-input{
+input, textarea, select{
     width: 100%;
     display: block;         /* to avoid the inline property of the element */
     margin-bottom: 5px;
@@ -30,7 +30,23 @@ button{
                         /* Both act one and the same */
     font: inherit;       
     /* all the properties can be inherited from the body overwriting the default styles */
+    cursor: grab;
+    margin: 1rem;
+    margin-left: 0;
 }
 
 
+input:focus, textarea:focus{
+    background-color:rgb(241, 204, 233);
+    color:rgb(41, 60, 203);
+    font-weight: bold;
+}
 
+.form-control-inline {
+    display: flex;
+  }
+  
+  .form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+  }
