@@ -38,3 +38,7 @@ firstH1Element.parentElement.removeChild(firstH1Element); // for older browsers
 // MOVE ELEMENTS
 
 firstParagraph.parentElement.append(firstParagraph);
+
+// innerHTML
+firstParagraph.innerHTML = 'Hi, this is <strong>important!</strong>';
+// We use html inside the colons as this becomes part of the main html element

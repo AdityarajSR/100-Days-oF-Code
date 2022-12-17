@@ -1,1 +1,23 @@
-[{"name":"Ghar ki Rasoi","address":"Pehli gali Dusra mohalla","cuisine":"Daal Roti","website":"https://gharkiRasoi.com","description":"Kyoki Roz ka yahi hai mera...."}]
+[
+  {
+    "name": "Ghar ki Rasoi",
+    "address": "Pehli gali Dusra mohalla",
+    "cuisine": "Daal Roti",
+    "website": "https://gharkiRasoi.com",
+    "description": "Kyoki Roz ka yahi hai mera...."
+  },
+  {
+    "name": "dddd",
+    "address": "ddddpppp",
+    "cuisine": "ddddllll",
+    "website": "https://gharkiRasoi.com",
+    "description": "ddsfdsf"
+  },
+  {
+    "name": "adityaraj",
+    "address": "Pehli gali Dusra mohalla",
+    "cuisine": "dffdfsadf",
+    "website": "https://saste_nase.com",
+    "description": "aise ihi\r\n"
+  }
+]
